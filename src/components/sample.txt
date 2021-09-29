@@ -1,0 +1,39 @@
+shrthand  --- rafce
+
+
+const NavbarComponent = () => {
+    return (
+        <>
+
+        </>
+    )
+}
+
+
+export default NavbarComponent
+
+// const ProductComponent = ({name, title}) => {
+//     const [state, setState] = useState(store)
+
+//             return (
+
+//         <>
+//         <div className="py-5">
+//             <div className="container">
+//                 <TitleComponent name='our' title='products'/>
+//                     {state.map ((stores) => {
+//                         const { id, img} = stores
+//                         return(
+//                             <div key={id} className="row">
+//                                 <img src={img} alt="" />
+//                             </div>
+//                         )
+//                     })}
+//                 </div>
+            
+//         </div>
+//             {/* <Product/> */}
+//         </>
+//     )
+        
+//     }

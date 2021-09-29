@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react'
+import { Switch, Route } from "react-router-dom";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import CartComponent from './components/CartComponent';
+import DefaultComponent from './components/DefaultComponent';
+import DetailsComponent from './components/DetailsComponent';
+import NavbarComponent from './components/NavbarComponent';
+import ProductComponent from './components/ProductComponent';
+import LoginComponent from './components/LoginComponent';
+import SignupComponent from './components/SignupComponent';
 
-function App() {
+
+
+
+
+const  App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <NavbarComponent/>
+    <Switch>
+      <Route exact path='/' component={ProductComponent}/>
+      <Route exact path='/details' component={DetailsComponent}/>
+      <Route exact path='/cart' component={CartComponent}/>
+      <Route exact path='/login' component={LoginComponent}/>
+      <Route exact path='/signup' component={SignupComponent}/>
+      <Route component={DefaultComponent}/>
+    </Switch>
+    </>
   );
 }
 

@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Bona Nova', serif !important;
+  background: rgb(214, 209, 209) !important;
+  color: black !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-title {
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-blue{
+  color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-light {
+  color: lightblue;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
