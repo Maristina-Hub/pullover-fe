@@ -1,8 +1,108 @@
 export const store = [
     {
     id: 1,
+    brand: '4X TOYOTA HILUX 2.4L TD GL PICK-UP',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTktWe_Z_gZTPksmmGkWl79yNmdg755NcR4zQ0HGmj8qMKPZjZkxCapWTyx-yWSM4kH8e4&usqp=CAU',
+    price: 100,
+    inCart: false,
+    count: 0,
+    total: 0 
+    },
+    {
+        id: 2,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA66EK5tzD9flXUvdRqlgWRLrUWQFft6XXZxWpk189d0Wkfb7CFrWdb8T4Aedc9frye0M&usqp=CAU ',
+        brand: 'Mack 1',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0 
+    },
+    {
+        id: 3,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrbIgHp-yTEd5-mMcWyjHmFsm9WBkdAK_loIMaoqbl1pJq3yP-SsKue_FhGslobcswazc&usqp=CAU',
+        brand: 'Mack 2',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0 
+    },
+    {
+        id: 4,
+        img: 'https://nigeriantech.com.ng/wp-content/uploads/2021/06/Mack-Truck-Prices-in-Nigeria-Nigeriantech.com_.ng_.jpg',
+        brand: 'Mack 3',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0 
+    },
+
+    {
+        id: 5,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HiJns58o1uYrplj6z0J-ul08r3nt_5HLsw&usqp=CAU',
+        brand: 'Mack 4',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0    
+    },
+
+    {
+        id: 6,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HiJns58o1uYrplj6z0J-ul08r3nt_5HLsw&usqp=CAU',
+        brand: 'Mack 4',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0    
+    },
+
+    {
+        id: 7,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HiJns58o1uYrplj6z0J-ul08r3nt_5HLsw&usqp=CAU',
+        brand: 'Mack 4',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0    
+    },
+
+    {
+        id: 8,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HiJns58o1uYrplj6z0J-ul08r3nt_5HLsw&usqp=CAU',
+        brand: 'Mack 4',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0    
+    }, 
+    
+    {
+        id: 9,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HiJns58o1uYrplj6z0J-ul08r3nt_5HLsw&usqp=CAU',
+        brand: 'Mack 4',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0    
+    },
+
+    {
+        id: 10,
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HiJns58o1uYrplj6z0J-ul08r3nt_5HLsw&usqp=CAU',
+        brand: 'Mack 4',
+        price: 100,
+        inCart: false,
+        count: 0,
+        total: 0    
+    }
+
+]
+
+export const details = [
+    {
+    id: 1,
     img: '../public/pullover-images/Toyota-hilux-pickup.jpg',
-    Brand: '4X TOYOTA HILUX 2.4L TD GL PICK-UP',
+    brand: '4X TOYOTA HILUX 2.4L TD GL PICK-UP',
     specification: {
         Stocknumber: 'VTO46',
         In_stock: 4,
@@ -39,7 +139,7 @@ export const store = [
     {
         id: 2,
         img: '../public/pullover-images/mack-1.jpg',
-        Brand: 'Mack 1',
+        brand: 'Mack 1',
         specification: {
             Stocknumber: 'VTO46',
             In_stock: 4,
@@ -76,7 +176,7 @@ export const store = [
     {
         id: 3,
         img: '../public/pullover-images/mack-2.jpg',
-        Brand: 'Mack 2',
+        brand: 'Mack 2',
         specification: {
             Stocknumber: 'VTO46',
             In_stock: 4,
@@ -113,7 +213,7 @@ export const store = [
     {
         id: 4,
         img: '../public/pullover-images/mack-3.jpg',
-        Brand: 'Mack 3',
+        brand: 'Mack 3',
         specification: {
             Stocknumber: 'VTO46',
             In_stock: 4,
@@ -151,7 +251,7 @@ export const store = [
     {
         id: 5,
         img: '../public/pullover-images/mack-4.jpg',
-        Brand: 'Mack 4',
+        brand: 'Mack 4',
         specification: {
             Stocknumber: 'VTO46',
             In_stock: 4,

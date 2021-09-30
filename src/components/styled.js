@@ -25,6 +25,22 @@ export const ButtonContainer = styled.button`
 export const SearchComponent = styled(FormControl)`
 width: 700px;
 margin:0 20px 0 0;
+@media (min-width: 300px) and (max-width: 1199.98px) { 
+    width: 250px; 
+    font-size: 1 rem;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    width: 200px; 
+}
+@media (min-width: 375px) and (max-width: 812px) {
+    width: 26   0px; 
+}
+@media (min-width: 414px) and (max-width: 736px) {
+    width: 300px; 
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    width: 500px; 
+}
 `
 export const NavWrapper = styled(Navbar)`
     background: rgba(4, 8, 111, 0.371);
@@ -41,6 +57,14 @@ export const DropDownWrapper = styled(NavDropdown)`
         font-size: 1.3rem;
         &:hover {
         color: white !important
-    }
+        }
+        @media (min-width: 300px) and (max-width: 1199.98px) { 
+        width: 300px; 
+        font-size: 1 rem;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+        width: 500px; 
+        }
+
     
 `

@@ -50,10 +50,10 @@ const NavbarComponent = () => {
             </ButtonContainer> 
         </LinkWrapper>
         <LinkWrapper className='nav-link' href="https://www.facebook.com/">
-            <ButtonContainer variant="outline-dark"><i class="fab fa-facebook fa-1x"></i></ButtonContainer>
+            <ButtonContainer variant="outline-dark"><i className="fab fa-facebook fa-1x"></i></ButtonContainer>
         </LinkWrapper>
         <LinkWrapper className='nav-link' href="https://www.instagram.com/">
-            <ButtonContainer variant="outline-dark"><i class="fab fa-instagram fa-1x"></i></ButtonContainer>
+            <ButtonContainer variant="outline-dark"><i className="fab fa-instagram fa-1x"></i></ButtonContainer>
         </LinkWrapper>
 
         </Nav>
