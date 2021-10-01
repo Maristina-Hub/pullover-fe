@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
+import { ProductWrapper} from './styled'
 // import { ProductConsumer } from '../context'
 
 
 
 class Product extends Component {
     render() {
-    const { img, brand, price, inCart} = this.props.product
+    const {id, img, brand, price, inCart} = this.props.product
     return (
-        <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
+        <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-6 my-3">
             <div className='card'>
                 <div className='img-container p-5' onClick={ () => console.log("you clicked me")}>
                     <Link to='/details'>
@@ -24,10 +25,10 @@ class Product extends Component {
                 {/* card footer */}
                 <div className=' card-footer d-flex justify-content-between'>
                     <p className='align-self-center mb-0'> {brand}</p>
-                    <h5 className='text-blue font-italic mb-0'>
+                    <h4 className='text-blue font-italic mb-0'>                 
                         <span className='mr-1'>$</span>
                         {price}
-                    </h5>
+                    </h4>
                 </div>
             </div>
         </ProductWrapper>
@@ -36,12 +37,11 @@ class Product extends Component {
 }
 
 
-
-const ProductWrapper = styled.div `
-
-`
-
-
+Product.propTypes = {
+    product: PropTypes.shape({
+        id:PropTypes.number,
+    })
+}
 
 
 

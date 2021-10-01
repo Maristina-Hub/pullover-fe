@@ -10,7 +10,7 @@ export const store = [
     },
     {
         id: 2,
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA66EK5tzD9flXUvdRqlgWRLrUWQFft6XXZxWpk189d0Wkfb7CFrWdb8T4Aedc9frye0M&usqp=CAU ',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTktWe_Z_gZTPksmmGkWl79yNmdg755NcR4zQ0HGmj8qMKPZjZkxCapWTyx-yWSM4kH8e4&usqp=CAU',
         brand: 'Mack 1',
         price: 100,
         inCart: false,
