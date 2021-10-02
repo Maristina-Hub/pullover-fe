@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { ProductWrapper} from './styled'
 // import { ProductConsumer } from '../context'
 
@@ -8,7 +8,7 @@ import { ProductWrapper} from './styled'
 
 class Product extends Component {
     render() {
-    const {id, img, brand, price, inCart} = this.props.product
+    const { img, brand, price, inCart} = this.props.product
     return (
         <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-6 my-3">
             <div className='card'>
@@ -37,11 +37,11 @@ class Product extends Component {
 }
 
 
-Product.propTypes = {
-    product: PropTypes.shape({
-        id:PropTypes.number,
-    })
-}
+// Product.propTypes = {
+//     product: PropTypes.shape({
+//         id:PropTypes.number,
+//     })
+// }
 
 
 
